@@ -1,0 +1,54 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.status {
+  color: #22c55e;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.wallet {
+  color: #6366f1;
+  font-family: monospace;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.warning {
+  color: #f59e0b;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.info {
+  color: #666;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.loading {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
