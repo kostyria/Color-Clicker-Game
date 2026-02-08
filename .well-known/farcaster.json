@@ -1,0 +1,27 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Color Clicker Game",
+    "homeUrl": "https://colorclickergame.vercel.app/",
+    "iconUrl": "https://colorclickergame.vercel.app/icon.svg",
+    "splashImageUrl": "https://colorclickergame.vercel.app/icon.svg",
+    "splashBackgroundColor": "#667eea",
+    "webhookUrl": "",
+    "subtitle": "Реакция и концентрация",
+    "description": "A test of reaction and concentration. Click the right color and don't get confused!",
+    "screenshotUrls": [],
+    "primaryCategory": "games",
+    "tags": ["game", "miniapp", "baseapp", "color", "clicker"],
+    "heroImageUrl": "https://colorclickergame.vercel.app/icon.svg",
+    "tagline": "Play instantly",
+    "ogTitle": "Color Clicker Game",
+    "ogDescription": "Казуальная игра: кликай правильный цвет. Лидерборд и NFT.",
+    "ogImageUrl": "https://colorclickergame.vercel.app/icon.svg",
+    "noindex": false
+  }
+}

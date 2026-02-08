@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- 4 quadrants: blue TL, orange TR, green BL, red BR -->
+  <rect width="256" height="256" x="0" y="0" fill="#3b82f6" rx="24"/>
+  <rect width="256" height="256" x="256" y="0" fill="#f59e0b" rx="24"/>
+  <rect width="256" height="256" x="0" y="256" fill="#10b981" rx="24"/>
+  <rect width="256" height="256" x="256" y="256" fill="#ef4444" rx="24"/>
+  <!-- White game controller silhouette -->
+  <g fill="white" stroke="rgba(0,0,0,0.2)" stroke-width="4">
+    <path d="M156 256a80 80 0 1 1 200 0 80 80 0 0 1-200 0z" fill="white"/>
+    <rect x="196" y="216" width="120" height="80" rx="40" fill="white"/>
+    <!-- D-pad -->
+    <path d="M116 236h40v40h-40z M96 276h20v40H96z M136 276h20v40h-20z M116 316h40v20h-40z" fill="rgba(0,0,0,0.4)"/>
+    <!-- Face buttons diamond -->
+    <circle cx="356" cy="236" r="12" fill="rgba(0,0,0,0.4)"/>
+    <circle cx="376" cy="256" r="12" fill="rgba(0,0,0,0.4)"/>
+    <circle cx="356" cy="276" r="12" fill="rgba(0,0,0,0.4)"/>
+    <circle cx="336" cy="256" r="12" fill="rgba(0,0,0,0.4)"/>
+  </g>
+</svg>
