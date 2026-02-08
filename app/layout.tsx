@@ -16,9 +16,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <head>
-        <meta name="base:app_id" content="69863c638dcaa0daf5755ff1" />
-      </head>
       <body>{children}</body>
     </html>
   )
