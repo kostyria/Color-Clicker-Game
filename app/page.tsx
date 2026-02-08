@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import { useBasedSDK } from './hooks/useBasedSDK'
-import Game from './components/Game'
-import Leaderboard from './components/Leaderboard'
-import NFTMint from './components/NFTMint'
-import './App.css'
+'use client'
 
-function App() {
+import { useState } from 'react'
+import { useBasedSDK } from '@/hooks/useBasedSDK'
+import Game from '@/components/Game'
+import Leaderboard from '@/components/Leaderboard'
+import NFTMint from '@/components/NFTMint'
+import CheckIn from '@/components/CheckIn'
+
+export default function Home() {
   const { connected, loading, walletAddress, mintNFT } = useBasedSDK()
   const [lastScore, setLastScore] = useState<number | null>(null)
 
@@ -27,6 +29,7 @@ function App() {
         <h1>Color Clicker Game</h1>
         <p className="warning">⚠️ Запустите приложение внутри Based.one для полного функционала</p>
         <p className="info">Игра будет работать в демо-режиме без лидерборда и NFT</p>
+        <CheckIn walletAddress={null} />
         <Game onGameOver={handleGameOver} />
       </div>
     )
@@ -40,6 +43,7 @@ function App() {
         <p className="wallet">Кошелек: {walletAddress.slice(0, 6)}...{walletAddress.slice(-4)}</p>
       )}
       
+      <CheckIn walletAddress={walletAddress} />
       <Game onGameOver={handleGameOver} />
       
       {lastScore !== null && (
@@ -58,5 +62,3 @@ function App() {
     </div>
   )
 }
-
-export default App
